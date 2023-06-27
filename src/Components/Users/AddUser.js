@@ -63,7 +63,7 @@ const AddUser = (props) => {
           <label htmlFor="age">Age : </label>
           <input
             id="age"
-            type="text"
+            type="number"
             value={enteredAge}
             onChange={ageChangeHandler}
           />
